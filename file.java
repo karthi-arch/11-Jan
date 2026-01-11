@@ -1,3 +1,4 @@
+This is my second commit.......!
 public class SpiralPatternExample2 {
     // Function to print the spiral pattern
     public static void printPattern(int n) {
@@ -19,6 +20,17 @@ public class SpiralPatternExample2 {
         System.out.print("Enter the value of n: ");
         int n = sc.nextInt();
         System.out.println();
+        printPattern(n);
+    }
+}
+  // Driver code
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value of n: ");
+        int n = sc.nextInt();
+        System.out.println();
+
+        // Function calling
         printPattern(n);
     }
 }
